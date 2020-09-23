@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
 
@@ -29,6 +29,11 @@ function Product({ id ,title, image, price, rating }) {
           <strong>{price}</strong>
         </p>
         <div className="product__rating">
+        {Array(rating)
+            .fill()
+            .map((_, i) => (
+              <span role="img" aria-label="sheep">🌟</span>
+            ))}
         </div>
       </div>
       <img src={image} alt="" />
