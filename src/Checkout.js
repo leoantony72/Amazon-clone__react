@@ -12,7 +12,7 @@ function Checkout() {
         <div className="checkout">
             <div className="checkout__left">
                 <img className="checkout__ad"
-                 src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg" 
+                 src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Laptops/Microsoft/COOP/17_06_2020/V209073725_IN_PC_Microsoft_COOP_refreshing_Baneers_1500x200_2.jpg" 
                  alt=""/>
 
                  <div className="checkout__title">

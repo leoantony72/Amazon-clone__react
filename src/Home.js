@@ -8,7 +8,7 @@ function Home() {
       <div className="Home__container">
         <img
           className="Home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/SamsungM/M51/GW_WOBankOffr/P38983965_IN_WLME_SamsungGalaxy_M51_PC_1500x600._CB404135194_.jpg"
           alt="prime"
         />
 
@@ -58,6 +58,29 @@ function Home() {
             price={1094.98}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+          />
+        </div>
+        <div className="Home__row">
+        <Product
+            id="98829331"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            price={1094.98}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/71L2iBSyyOL._SX679_.jpg"
+          />
+          <Product
+            id="98829332"
+            title="Apple iPhone XR (128GB) - Black"
+            price={899}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51qBzX0pGYL._SY679_.jpg"
+          />
+          <Product
+            id="98829333"
+            title="Apple AirPods Pro"
+            price={299.99}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/71zny7BTRlL._SX679_.jpg"
           />
         </div>
       </div>
